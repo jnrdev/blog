@@ -20,16 +20,6 @@ body {
     background-repeat: no-repeat;
 }
 
-.container {
-    display: flex;
-    height: auto;
-    flex-direction: row;
-}
-
-.box1 {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.671);
-}
 .box {
     color: darkblue;
     background-color: rgba(156, 27, 27, 0.322);
