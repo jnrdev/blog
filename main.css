@@ -1,0 +1,43 @@
+/* header colour one */
+h1 {
+    color: rgba(128, 0, 128, 0.424);
+    font-size: 39px;
+}
+h2 {
+    color: firebrick;
+    font-size: 25px
+}
+
+p {
+    font-size-adjust: inherit;
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+body {
+    background-image: url("bgimg.jpg");
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    height: auto;
+    flex-direction: row;
+}
+
+.box1 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.671);
+}
+.box {
+    color: darkblue;
+    background-color: rgba(156, 27, 27, 0.322);
+    height: 720px;
+    width: 1080px;
+    text-align: center;
+    padding: 30px;
+    padding-inline-start: 40px;
+    scroll-padding-inline-start: auto;
+    width: 840px;
+}
