@@ -1,0 +1,25 @@
+/* header colour one */
+p {
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+html {
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c5deea+0,8abbd7+31,066dab+100;Web+2.0+Blue+3D+%231 */
+background: #c5deea; /* Old browsers */
+background: -moz-linear-gradient(top,  hsla(199,47%,85%,1) 0%, hsla(202,49%,69%,1) 31%, hsla(203,93%,35%,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  hsla(199,47%,85%,1) 0%,hsla(202,49%,69%,1) 31%,hsla(203,93%,35%,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  hsla(199,47%,85%,1) 0%,hsla(202,49%,69%,1) 31%,hsla(203,93%,35%,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=0 ); /* IE6-9 */
+}
+
+body {
+    background: #98BBC7;
+    padding-block-end: 12em;
+    padding-top: 40px;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+}
