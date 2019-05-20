@@ -1,23 +1,24 @@
 /* header colour one */
 h1 {
-    color: rgba(128, 0, 128, 0.424);
+    color:peru
     font-size: 39px;
-}
-h2 {
-    color: firebrick;
-    font-size: 25px
 }
 
 p {
-    font-size-adjust: inherit;
     text-align: left;
     padding-left: 25px;
     padding-right: 25px;
 }
 
-body {
-    background-image: url("bgimg.jpg");
-    background-repeat: no-repeat;
+
+html {
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c5deea+0,8abbd7+31,066dab+100;Web+2.0+Blue+3D+%231 */
+background: #c5deea; /* Old browsers */
+background: -moz-linear-gradient(top,  hsla(199,47%,85%,1) 0%, hsla(202,49%,69%,1) 31%, hsla(203,93%,35%,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  hsla(199,47%,85%,1) 0%,hsla(202,49%,69%,1) 31%,hsla(203,93%,35%,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  hsla(199,47%,85%,1) 0%,hsla(202,49%,69%,1) 31%,hsla(203,93%,35%,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=0 ); /* IE6-9 */
+
 }
 
 .box {
@@ -34,5 +35,16 @@ body {
 
 .index { 
     color: darkblue;
-    text-align: left;
+    text-align: center;
 }
+
+.container {
+    display: flex; 
+    -ms-flex-item-align: center;
+    background-color: black;
+    color: white; /* or inline-flex */
+  }
+
+  .item {
+    flex-grow: 40px; /* default 0 */
+  }
