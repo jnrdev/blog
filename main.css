@@ -40,11 +40,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', end
 
 .container {
     display: flex; 
+    flex-direction: row;
+    flex-wrap: initial;
+    -moz-box-flex: initial;
     -ms-flex-item-align: center;
-    background-color: black;
-    color: white; /* or inline-flex */
+    color: black; /* or inline-flex */
   }
 
-  .item {
+.item {
     flex-grow: 40px; /* default 0 */
   }
