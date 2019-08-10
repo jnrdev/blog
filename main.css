@@ -1,13 +1,9 @@
 /* header colour one */
-h1 {
-    color:peru
-    font-size: 39px;
-}
 
-p {
+body {
     text-align: left;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 220px;
+    padding-right: 220px;
 }
 
 
@@ -18,7 +14,6 @@ background: -moz-linear-gradient(top,  hsla(199,47%,85%,1) 0%, hsla(202,49%,69%,
 background: -webkit-linear-gradient(top,  hsla(199,47%,85%,1) 0%,hsla(202,49%,69%,1) 31%,hsla(203,93%,35%,1) 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom,  hsla(199,47%,85%,1) 0%,hsla(202,49%,69%,1) 31%,hsla(203,93%,35%,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=0 ); /* IE6-9 */
-
 }
 
 .box {
@@ -33,20 +28,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', end
     width: 840px;
 }
 
-.index { 
-    color: darkblue;
-    text-align: center;
+ul {
+    text-align: left;
 }
 
-.container {
-    display: flex; 
-    flex-direction: row;
-    flex-wrap: initial;
-    -moz-box-flex: initial;
-    -ms-flex-item-align: center;
-    color: black; /* or inline-flex */
-  }
-
-.item {
-    flex-grow: 40px; /* default 0 */
-  }
+h6 {
+    text-align: center;
+}
